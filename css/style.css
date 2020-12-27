@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-image:url("../img/caesar-edit.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    padding-top: 300px;
+    padding-left: 400px;
+    font-weight: 300px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 280px 160px;
+    
+}
+a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-weight: 300px;
+    font-size: 16px;
+}
+
+p {
+    margin-top: 6px;
+    color: #acacac;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: normal;
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+#contact-info {
+    font-size: 15px;
+    font-style: italic;
+}
+.socials {
+    display: flex;
+}
+
+.socials img {
+    width:35px;
+    height: 35px;
+    padding-left: 15px;
+}
