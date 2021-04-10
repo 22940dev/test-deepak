@@ -1,0 +1,36 @@
+.header {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content:space-between;
+    padding: 40px 140px;
+}
+
+.header b {
+    font-weight: 600;
+}
+
+/* .header b:hover {
+    font-weight: 100;
+} */
+
+.header ul {
+    list-style: none;
+    display: inline;
+}
+
+.header li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.header a {
+    color:var(--foreground-color);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.header a:hover {
+    color:var(--foreground-grey);
+}
