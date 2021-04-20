@@ -1,5 +1,5 @@
 .nav {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
     letter-spacing: 2px;
     display: flex;
@@ -32,5 +32,11 @@
 }
 
 .nav a:hover {
-    color:var(--foreground-grey);
+    /* color:var(--foreground-grey); */
+    animation: chroma  ease-in 0.2s normal forwards;
+}
+
+@keyframes chroma{
+    100%{text-shadow:-1px 0px 0px #1AD7E0, -3px 0px 0px #0D10DC,1px 0px 0px #d68010 ,3px 0px 0px #CB0C0C;}
+    
 }

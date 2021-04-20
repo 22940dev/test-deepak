@@ -13,16 +13,13 @@ function Nav() {
             <div className="nav-link">
                 <ul>
                     <Link to="/">
-                        <li>Work</li>
+                        <li>ART</li>
+                    </Link>
+                    <Link to="/archieves">
+                        <li>ARCHIEVES</li>
                     </Link>
                     <Link to="/">
-                        <li>Art</li>
-                    </Link>
-                    <Link to="/archieve">
-                        <li>Archieve</li>
-                    </Link>
-                    <Link to="/">
-                        <li>Info</li>
+                        <li>PROFILE</li>
                     </Link>
                 </ul>
             </div>

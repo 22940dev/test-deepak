@@ -2,6 +2,7 @@
   --background-color:#050505;
   --foreground-color: #F2F2F2;  
   --foreground-grey: #909090;
+  font-family: Inter;
 }
 
 * {
@@ -12,8 +13,6 @@
 body {
   background-color: var(--background-color);
   color: var(--foreground-color);
-  font-family: 'Inter', sans-serif;
-  font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
