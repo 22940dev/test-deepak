@@ -1,13 +1,13 @@
 import {MidWrapper, CatHeading} from "../../elements/Layout";
-import "./Archieves.css";
-import ArchieveData from "./Archieves.json";
+import "./Archives.css";
+import ArchiveData from "./Archives.json";
 
 function Archieves(){
     return (
         <>
         <MidWrapper>
             <CatHeading>
-                Welcome to My <b>Archieves</b>
+                Welcome to My <b>Archives</b>
             </CatHeading>
             
 
@@ -23,20 +23,23 @@ function Archieves(){
 const ArCard = () => {
     return (
         <>
-        {ArchieveData.map((archieve, index)=>{
+        {ArchiveData.map((archieve, index)=>{
             return (
-                <div className={index % 2 === 0 ? "row" : "row-reverse"} key={index}>
-                    <div className="left">
-                        <div className="archieve-heading" dangerouslySetInnerHTML={{ __html:archieve.title}}/>
-                        <div className="archieve-date">{archieve.date}</div>
-                        <img src="images/tera.jpg" alt=""></img>
-                    </div>
-                    <div className="right">
-                        <p>
-                           {archieve.content} 
-                        </p>
-                    </div>
-                </div>
+               <div className={index % 2 === 0 ? "row" : "row-reverse"} key={index}>
+            <div
+              className="heading">
+                  <div className="archive-heading" dangerouslySetInnerHTML={{__html: archieve.title}}/>
+                  <div className="archive-date">{archieve.date}</div>
+            </div>
+            <div className="left">
+              {/* <div className="archieve-date">{archieve.date}</div> */}
+              {/* dangerouslySetInnerHTML={{ __html: archieve.title }} */}
+              <img src="images/tera.jpg" alt=""></img>
+            </div>
+            <div className="right">
+              <p>{archieve.content}</p>
+            </div>
+          </div> 
             )
         })}
         </>

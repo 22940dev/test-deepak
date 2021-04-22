@@ -15,8 +15,8 @@ function Nav() {
                     <Link to="/">
                         <li>ART</li>
                     </Link>
-                    <Link to="/archieves">
-                        <li>ARCHIEVES</li>
+                    <Link to="/archives">
+                        <li>ARCHIVES</li>
                     </Link>
                     <Link to="/">
                         <li>PROFILE</li>
